@@ -1,0 +1,24 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap') */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #20242d;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+
+span,
+.primary-color {
+  background-image: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent
+}
+
+.bg-primary-color {
+  background-image: linear-gradient(to right, #6b2b72, #a5079d);
+}
