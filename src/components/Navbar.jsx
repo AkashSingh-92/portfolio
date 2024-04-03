@@ -6,16 +6,16 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
 
   return (
-    <div className=' flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l rounded-md poppins'>
+    <div className=' flex justify-between items-center max-w-[1200px] mx-auto h-24 px-4 text-l rounded-md poppins'>
 
 
         <h1 className='text-3xl font-bold primary-color ml-1 cursor-pointer'>Akash Singh</h1>
         <ul className='hidden md:flex '>
-            <li className='p-2 text-gray-400 hover:text-white cursor-pointer'>Home</li>
-            <li className='p-2 text-gray-400 hover:text-white cursor-pointer'>About me</li>
-            <li className='p-2 text-gray-400 hover:text-white cursor-pointer'>Projects</li>
-            <li className='p-2 text-gray-400 hover:text-white cursor-pointer'>Experience</li>
-            <li className='p-2 text-gray-400 hover:text-white cursor-pointer'>Contact me</li>
+            <li className='p-2 text-xl text-gray-400 hover:text-white cursor-pointer'>Home</li>
+            <li className='p-2 text-xl text-gray-400 hover:text-white cursor-pointer'>About me</li>
+            <li className='p-2 text-xl text-gray-400 hover:text-white cursor-pointer'>Projects</li>
+            <li className='p-2 text-xl text-gray-400 hover:text-white cursor-pointer'>Experience</li>
+            <li className='p-2 text-xl text-gray-400 hover:text-white cursor-pointer'>Contact me</li>
         </ul>
       
         <div onClick={()=>{
